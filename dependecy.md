@@ -12,15 +12,15 @@ NO NON-CRAN DEPENDENCIES!
 
 ### db (PEcAn.DB)
 
-- 1) logger  2) remote  3) utils         4) MA(meta.analysis)
+- 1) logger 2) remote  3) utils
 
 ### qaqc (PEcAn.qaqc)
 
-- 1) logger  2) DB  3) utils      4) BIOCRO  5) ED2  6) SIPNET
+- 1) utils    2) BIOCRO  3) ED2  4) SIPNET
 
 ### remote (PEcAn.remote)
 
-- 1) DB  2) logger
+- 1) logger 2) workflow
 
 ### settings (PEcAn.settings)
 
@@ -28,7 +28,7 @@ NO NON-CRAN DEPENDENCIES!
 
 ### utils (PEcAn.utils)
 
-- 1) DB  2) logger  3) remote  4) settings  5) workflow          7) benchmark  8) data.atmosphere  9) emulator  10) priors  11) uncertainty
+- 1) DB  2) logger  3) remote  4) workflow  5) data.atmosphere  6) benchmark
 
 ### visualization (PEcAn.visualization)
 
@@ -36,7 +36,7 @@ NO NON-CRAN DEPENDENCIES!
 
 ### workflow (PEcAn.workflow)
 
-- 1) DB  2) logger  3) remote  4) settings  5) utils          6) data.atmosphere  7) data.land  8) uncertainty
+- 1) DB  2) logger  3) remote  4) settings  5) utils    6) data.atmosphere  7) data.land  8) uncertainty
 
 
 ## MODULES packages
@@ -44,23 +44,23 @@ packages mentioned below belong to the modules sub-directory.
 
 ### allometry (PEcAn.allometry)
 
-- 1) DB  2) logger  3) utils
+- 1) DB  2) utils
 
 ### assim.batch (PEcAn.assim.batch)
 
-- 1) logger  2) DB  3) remote  4) settings  5) utils         7) meta.analysis  8) uncertainty  9) emulator  10) benchmark
+- 1) logger  2) DB  3) remote  4) settings  5) utils    6) meta.analysis  7) uncertainty  8) emulator  9) benchmark  10) workflow
 
 ### assim.sequential (PEcAn.assim.sequential)
 
-- 1) all  2) DB  3) logger  4) remote  5) settings  6) utils  7) visualization  8) workflow          9) meta.analysis  10) uncertainty           11) LINKAGES  12) SIPNET  13) ED2
+- 1) all  2) DB  3) logger  4) remote  5) settings  6) utils  7) visualization  8) workflow 9) meta.analysis  10) uncertainty  11) LINKAGES  12) SIPNET  13) ED2    14) data.remote
 
 ### benchmark (PEcAn.benchmark)
 
-- 1) all  2) DB  3) logger  4) remote  5) settings  6) utils               7) data.land
+- 1) all  2) DB  3) logger  4) remote  5) settings  6) utils    7) data.land
 
 ### data.atmosphere (PEcAn.data.atmosphere)
 
-- 1) all  2) DB  3) logger  4) remote  5) settings  6) utils      7) ED2  8) SIPNET  9) DALEC
+- 1) all  2) DB  3) logger  4) remote  5) settings  6) utils    7) ED2  8) SIPNET  9) DALEC
 
 ### data.hydrology (PEcAn.hydrology)
 
@@ -68,7 +68,7 @@ packages mentioned below belong to the modules sub-directory.
 
 ### data.land (PEcAn.data.land)
 
-- 1) logger  2) DB  3) remote  4) settings  5) utils  6) visualization        7) data.atmosphere 8) benchmark
+- 1) logger  2) DB  3) remote  4) settings  5) utils  6) visualization  7) data.atmosphere 8) benchmark
 
 ### data.mining (PEcAn.data.mining)
 
@@ -78,7 +78,7 @@ packages mentioned below belong to the modules sub-directory.
 
 - 1) DB  2) utils  3) logger  4) remote
 
-### **emulator** (PEcAn.emulator)
+### emulator (PEcAn.emulator)
 
 - 1) logger
 

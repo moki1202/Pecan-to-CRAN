@@ -28,7 +28,7 @@ NO NON-CRAN DEPENDENCIES!
 
 ### utils (PEcAn.utils)
 
-- 1) DB  2) logger  3) remote  4) workflow  5) data.atmosphere  6) benchmark
+- 1) DB  2) logger  3) remote  4) workflow  5) removed-data.atmosphere  6) benchmark
 
 ### visualization (PEcAn.visualization)
 

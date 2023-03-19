@@ -20,7 +20,7 @@ NO NON-CRAN DEPENDENCIES!
 
 ### remote (PEcAn.remote)
 
-- 1) logger 2) workflow
+- 1) logger 2) workflow 3) DB
 
 ### settings (PEcAn.settings)
 
